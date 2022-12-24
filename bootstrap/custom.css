@@ -1,0 +1,250 @@
+/* home */
+.navbar.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar.scrolled .nav-link {
+  color: #555;
+}
+
+.blog-date {
+  font-size: 13px;
+  color: rgba(117, 117, 117, 1);
+  line-height: 20px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.cat {
+  transition: background 300ms ease 0s;
+  border-radius: 100px;
+  padding: 2px 8px;
+  white-space: nowrap;
+  background-color: rgba(242, 242, 242, 1);
+  color: rgba(117, 117, 117, 1);
+  position: relative;
+  font-size: 13px;
+}
+
+.content-btn {
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  vertical-align: middle;
+  width: 200px;
+  height: 134px;
+}
+
+.banner-title {
+  line-height: 95px;
+  font-size: 106px;
+  letter-spacing: -0.05em;
+  color: rgba(41, 41, 41, 1);
+  font-weight: 400;
+  display: flex;
+}
+
+.blog-content {
+  line-height: 24px;
+  font-size: 24px;
+  color: rgba(41, 41, 41, 1);
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+form {
+  margin: 0;
+}
+
+.banner-btn {
+  font-size: 20px;
+  width: 213px;
+  line-height: 24px;
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 99em;
+  border-color: rgba(25, 25, 25, 1);
+  background: rgba(25, 25, 25, 1);
+  margin: 0;
+}
+
+.btn-text {
+  padding: 7px 20px 9px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.get-btn.scrolled {
+  background-color: rgb(26, 137, 23) !important;
+  transition: background-color 300ms linear, color 300ms linear;
+}
+
+.get-txt {
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.blog {
+  padding-top: 56px;
+  border-top: 1px solid rgba(230, 230, 230, 1);
+  display: block;
+  box-sizing: inherit;
+}
+
+.banner {
+  padding-top: 93px;
+  padding-bottom: 92px;
+  width: 100%;
+}
+
+.aside-ttl {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 24px;
+}
+
+.aside-txt {
+  color: rgb(117, 117, 117);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.author {
+  max-height: 16px;
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  overflow: hidden;
+  color: rgba(41, 41, 41, 1);
+  margin: 0;
+}
+
+.content-ttl {
+  letter-spacing: 0;
+  max-height: 56px;
+  line-height: 28px;
+  font-size: 22px;
+  color: rgba(41, 41, 41, 1);
+  overflow: hidden;
+  font-weight: 700;
+}
+
+.content {
+  max-height: 40px;
+  color: rgba(117, 117, 117, 1);
+  font-size: 16px;
+  overflow: hidden;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h4 {
+  padding-right: 2px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 500;
+  overflow: hidden;
+  color: rgba(41, 41, 41, 1);
+}
+
+/* details */
+.block {
+  padding: 2px 8px;
+  white-space: nowrap;
+  background-color: rgba(242, 242, 242, 1);
+  color: rgba(117, 117, 117, 1);
+  position: relative;
+  font-size: 13px;
+  line-height: 24px;
+  width: 740px;
+}
+
+.block-content {
+  padding: 16px;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.block-txt {
+  color: rgba(41, 41, 41, 1);
+}
+
+.dropdown-menu {
+}
+
+.dd-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.post-date {
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.post-cat {
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For tablets: */
+  .container {
+    width: 80%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .menu,
+  .container {
+    width: 100%;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
