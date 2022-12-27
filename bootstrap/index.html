@@ -17,7 +17,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="custom.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
   </head>
   <body>
     <!-- Navigation -->
@@ -49,14 +49,16 @@
               <a
                 class="nav-link text-dark"
                 aria-current="page"
-                href="index.html"
+                href="create.html"
                 >Write</a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark" href="login.html">Sign in</a>
             </li>
-            <button class="get-btn rounded-pill bg-dark text-white">
+            <button
+              class="get-btn btn navbar-btn rounded-pill bg-dark text-white"
+            >
               Get started
             </button>
           </ul>
@@ -67,364 +69,372 @@
     <div class="container-fluid bg-warning border-bottom border-dark">
       <div class="container banner">
         <h2 class="banner-title">Stay curious.</h2>
-        <h3 class="blog-content w-50">
-          Discover stories, thinking, and expertise from writers on any topic.
+        <h3 class="blog-content lh-sm w-50">
+          Discover stories, thinking, and expertise<br />
+          from writers on any topic.
         </h3>
-        <button class="banner-btn btn-text">Start reading</button>
+        <button
+          class="banner-btn btn rounded-pill bg-dark text-white btn-text mb-2"
+        >
+          Start reading
+        </button>
       </div>
     </div>
-    <div class="container blog">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="d-flex justify-content-start">
-            <img
-              src="https://miro.medium.com/fit/c/25/25/1*oTq5RWcSwzoDiuAO_OBhaw.jpeg"
-              class="rounded-circle"
-              alt="Cinque Terre"
-              width="20px"
-              height="20px"
-            />
-            <div class="px-2">
-              <h4 class="author">Dr. Tom Frieden</h4>
-              <h6 class="content-ttl mb-2 mt-2">Understanding Long Covid</h6>
-              <p class="content mb-2">Ukraine War, 19 December 2022</p>
-              <span class="blog-date">Dec 20 · 9 min read ·</span>
-              <span class="cat">Long Covid</span>
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path
-                  d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z"
-                  fill="#FFC017"
-                ></path>
-              </svg>
-              <a class="content-btn" rel="noopener follow" href="details.html"
-                ><svg
-                  width="25"
-                  height="25"
-                  viewBox="0 0 25 25"
-                  fill="none"
-                  class="mf"
-                >
-                  <path
-                    d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
-                    fill="#292929"
-                  ></path>
-                </svg>
-              </a>
-            </div>
+
+    <div class="container mt-3">
+      <div class="float-start">
+        <div class="float-lg-end float-sm-none col-md-4 col-sm">
+          <div class="col-md-12 mt-3" style="z-index: 1">
+            <h6 class="aside-ttl">DISCOVER MORE OF WHAT MATTER TO YOU</h6>
+            <a
+              href=""
+              class="aside-txt border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
+              >Programming</a
+            >
+            <a
+              href=""
+              class="aside-txt border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
+              >Data Science</a
+            >
+            <a
+              href=""
+              class="aside-txt border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
+              >Technology</a
+            >
+            <a
+              href=""
+              class="aside-txt border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
+              >Self Improvement</a
+            >
+            <a
+              href=""
+              class="aside-txt border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
+              >Writing</a
+            >
+            <a
+              href=""
+              class="aside-txt border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
+              >Relationships</a
+            >
+            <a
+              href=""
+              class="aside-txt border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
+              >Machine Learning</a
+            >
+            <a
+              href=""
+              class="aside-txt border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
+              >Productivity</a
+            >
+            <a
+              href=""
+              class="aside-txt border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
+              >Politics</a
+            >
+            <hr />
+            <a
+              href=""
+              class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-text"
+              >Help</a
+            >
+            <a
+              href=""
+              class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-text"
+              >Status</a
+            >
+            <a
+              href=""
+              class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-text"
+              >Writers</a
+            >
+            <a
+              href=""
+              class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-text"
+              >Blog</a
+            >
+            <a
+              href=""
+              class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-text"
+              >Careers</a
+            >
+            <a
+              href=""
+              class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-text"
+              >Privacy</a
+            >
+            <a
+              href=""
+              class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-text"
+              >Terms</a
+            >
+            <a
+              href=""
+              class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-text"
+              >About</a
+            >
+            <a
+              href=""
+              class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-text"
+              >Text to speech</a
+            >
           </div>
         </div>
-        <div class="col-md-4">
-          <img
-            src="https://miro.medium.com/fit/c/250/168/1*cZUgmG_eu04Lhw-ntg6SOg.jpeg"
-            class="img"
-          />
-        </div>
-        <div class="col-md-4" style="z-index: 1">
-          <h6 class="aside-ttl">DISCOVER MORE OF WHAT MATTER TO YOU</h6>
-          <a
-            href=""
-            class="border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
-            >Programming</a
-          >
-          <a
-            href=""
-            class="border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
-            >Data Science</a
-          >
-          <a
-            href=""
-            class="border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
-            >Technology</a
-          >
-          <a
-            href=""
-            class="border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
-            >Self Improvement</a
-          >
-          <a
-            href=""
-            class="border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
-            >Writing</a
-          >
-          <a
-            href=""
-            class="border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
-            >Relationships</a
-          >
-          <a
-            href=""
-            class="border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
-            >Machine Learning</a
-          >
-          <a
-            href=""
-            class="border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
-            >Productivity</a
-          >
-          <a
-            href=""
-            class="border me-2 mb-2 rounded d-inline-block px-2 py-2 text-decoration-none text-secondary"
-            >Politics</a
-          >
-          <hr />
-          <a
-            href=""
-            class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-txt"
-            >Help</a
-          >
-          <a
-            href=""
-            class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-txt"
-            >Status</a
-          >
-          <a
-            href=""
-            class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-txt"
-            >Writers</a
-          >
-          <a
-            href=""
-            class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-txt"
-            >Blog</a
-          >
-          <a
-            href=""
-            class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-txt"
-            >Careers</a
-          >
-          <a
-            href=""
-            class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-txt"
-            >Privacy</a
-          >
-          <a
-            href=""
-            class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-txt"
-            >Terms</a
-          >
-          <a
-            href=""
-            class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-txt"
-            >About</a
-          >
-          <a
-            href=""
-            class="me-2 mb-2 d-inline-block px-2 py-2 text-decoration-none aside-txt"
-            >Text to speech</a
-          >
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="d-flex justify-content-start">
-            <img
-              src="https://miro.medium.com/fit/c/110/110/1*-OWrgxgC1UTo3cp2_94kIw.jpeg"
-              class="rounded-circle"
-              alt="Cinque Terre"
-              width="20px"
-              height="20px"
-            />
-            <div class="px-2">
-              <h4 class="author">David Bowles</h4>
-              <h6 class="content-ttl mb-2 mt-2">Braiding Past into Future</h6>
-              <p class="content mb-2">Nican Huehcatlahtolli, a New Futurism</p>
-              <span class="blog-date">Nov 26 · 11 min read · </span>
-              <span class="cat">Futurism</span>
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path
-                  d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z"
-                  fill="#FFC017"
-                ></path>
-              </svg>
-              <a
-                class="content-btn"
-                rel="noopener follow"
-                href="/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F22e3bd78b8c9&amp;operation=register&amp;redirect=https%3A%2F%2Fuxdesign.cc%2Fa-product-managers-64-insights-from-2022-22e3bd78b8c9&amp;source=---------0-----------------bookmark_preview-0----------"
-                ><svg
-                  width="25"
-                  height="25"
-                  viewBox="0 0 25 25"
-                  fill="none"
-                  class="mf"
-                >
-                  <path
-                    d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
-                    fill="#292929"
-                  ></path>
-                </svg>
-              </a>
+        <div class="float-lg-start float-sm-none col-md-6 col-sm mt-3">
+          <div class="row">
+            <div class="col-8 mt-3">
+              <div class="d-flex justify-content-start">
+                <img
+                  src="https://miro.medium.com/fit/c/25/25/1*oTq5RWcSwzoDiuAO_OBhaw.jpeg"
+                  class="rounded-circle"
+                  alt="Cinque Terre"
+                  width="20px"
+                  height="20px"
+                />
+                <div class="px-2">
+                  <h4 class="author">Dr. Tom Frieden</h4>
+                  <h6 class="content-ttl mb-2 mt-2">
+                    Understanding Long Covid
+                  </h6>
+                  <p class="content mb-2">Ukraine War, 19 December 2022</p>
+                  <span class="blog-date">Dec 20 · 9 min read ·</span>
+                  <span class="cat"><a href="lists.html"> Long Covid</a></span>
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z"
+                      fill="#FFC017"
+                    ></path>
+                  </svg>
+                  <a
+                    class="content-btn"
+                    rel="noopener follow"
+                    href="details.html"
+                    ><svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      class="mf"
+                    >
+                      <path
+                        d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
+                        fill="#292929"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mt-3">
+              <img
+                src="https://miro.medium.com/fit/c/250/168/0*Nz897vaKH2yJhSQJ"
+                class="img"
+              />
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <img
-            src="https://miro.medium.com/fit/c/250/168/1*SIrSIkSoOBiUFvv8wIyYgg.png"
-            class="img"
-          />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="d-flex justify-content-start">
-            <img
-              src="https://miro.medium.com/fit/c/25/25/1*KCdWeLHgIFfw5gv7fX97Eg.jpeg"
-              class="rounded-circle"
-              alt="Cinque Terre"
-              width="20px"
-              height="20px"
-            />
-            <div class="px-2">
-              <h4 class="author">Ed Ergenzinger in Invisible Illness</h4>
-              <h6 class="content-ttl mb-2 mt-2">
-                Learning to Cope with Estrangement: When Children “Cancel” Their
-                Parents
-              </h6>
-              <p class="content mb-2">
-                An estranged father reflects on the stigma and surprising
-                prevalence of these family rifts.
-              </p>
-              <span class="blog-date">Aug 21 · 6 min read ·</span>
-              <span class="cat">Parental Alienation</span>
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path
-                  d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z"
-                  fill="#FFC017"
-                ></path>
-              </svg>
-              <a
-                class="content-btn"
-                rel="noopener follow"
-                href="/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F22e3bd78b8c9&amp;operation=register&amp;redirect=https%3A%2F%2Fuxdesign.cc%2Fa-product-managers-64-insights-from-2022-22e3bd78b8c9&amp;source=---------0-----------------bookmark_preview-0----------"
-                ><svg
-                  width="25"
-                  height="25"
-                  viewBox="0 0 25 25"
-                  fill="none"
-                  class="mf"
-                >
-                  <path
-                    d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
-                    fill="#292929"
-                  ></path>
-                </svg>
-              </a>
+          <div class="row">
+            <div class="col-8 mt-3">
+              <div class="d-flex justify-content-start">
+                <img
+                  src="https://miro.medium.com/fit/c/25/25/1*oTq5RWcSwzoDiuAO_OBhaw.jpeg"
+                  class="rounded-circle"
+                  alt="Cinque Terre"
+                  width="20px"
+                  height="20px"
+                />
+                <div class="px-2">
+                  <h4 class="author">Dr. Tom Frieden</h4>
+                  <h6 class="content-ttl mb-2 mt-2">
+                    Understanding Long Covid
+                  </h6>
+                  <p class="content mb-2">Ukraine War, 19 December 2022</p>
+                  <span class="blog-date">Dec 20 · 9 min read ·</span>
+                  <span class="cat">Long Covid</span>
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z"
+                      fill="#FFC017"
+                    ></path>
+                  </svg>
+                  <a
+                    class="content-btn"
+                    rel="noopener follow"
+                    href="details.html"
+                    ><svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      class="mf"
+                    >
+                      <path
+                        d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
+                        fill="#292929"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mt-3">
+              <img
+                src="https://miro.medium.com/fit/c/250/168/0*Nz897vaKH2yJhSQJ"
+                class="img"
+              />
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <img
-            src="https://miro.medium.com/fit/c/250/168/1*Q7VnYoqb2lVzx7sxOf93Bg.png"
-            class="img mt-4 mb-4"
-          />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="d-flex justify-content-start">
-            <img
-              src="
-                https://miro.medium.com/fit/c/25/25/1*9DmPCSKCovhOifNBJp663g.jpeg"
-              alt="Cinque Terre"
-              class="rounded-circle"
-              width="20px"
-              height="20px"
-            />
-            <div class="px-2">
-              <h4 class="author">Julie Zhuo</h4>
-              <h6 class="content-ttl mb-2 mt-2">
-                Why Your Team Needs a Weekly Metrics Review
-              </h6>
-              <p class="content mb-2">
-                What is it, how you can start, and why it will make your product
-                team much better builders and collaborators.
-              </p>
-              <span class="blog-date">Nov 30 · 7 min read ·</span>
-              <span class="cat"> Data</span>
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path
-                  d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z"
-                  fill="#FFC017"
-                ></path>
-              </svg>
-              <a
-                class="content-btn"
-                rel="noopener follow"
-                href="/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F22e3bd78b8c9&amp;operation=register&amp;redirect=https%3A%2F%2Fuxdesign.cc%2Fa-product-managers-64-insights-from-2022-22e3bd78b8c9&amp;source=---------0-----------------bookmark_preview-0----------"
-                ><svg
-                  width="25"
-                  height="25"
-                  viewBox="0 0 25 25"
-                  fill="none"
-                  class="mf"
-                >
-                  <path
-                    d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
-                    fill="#292929"
-                  ></path>
-                </svg>
-              </a>
+          <div class="row">
+            <div class="col-8 mt-3">
+              <div class="d-flex justify-content-start">
+                <img
+                  src="https://miro.medium.com/fit/c/25/25/1*oTq5RWcSwzoDiuAO_OBhaw.jpeg"
+                  class="rounded-circle"
+                  alt="Cinque Terre"
+                  width="20px"
+                  height="20px"
+                />
+                <div class="px-2">
+                  <h4 class="author">Dr. Tom Frieden</h4>
+                  <h6 class="content-ttl mb-2 mt-2">
+                    Understanding Long Covid
+                  </h6>
+                  <p class="content mb-2">Ukraine War, 19 December 2022</p>
+                  <span class="blog-date">Dec 20 · 9 min read ·</span>
+                  <span class="cat">Long Covid</span>
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z"
+                      fill="#FFC017"
+                    ></path>
+                  </svg>
+                  <a
+                    class="content-btn"
+                    rel="noopener follow"
+                    href="details.html"
+                    ><svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      class="mf"
+                    >
+                      <path
+                        d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
+                        fill="#292929"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mt-3">
+              <img
+                src="https://miro.medium.com/fit/c/250/168/0*Nz897vaKH2yJhSQJ"
+                class="img"
+              />
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <img
-            src="https://miro.medium.com/fit/c/250/168/0*Bx8uLnqHSGpbqZUm"
-            class="img"
-          />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="d-flex justify-content-start">
-            <img
-              src="https://miro.medium.com/fit/c/176/176/0*bOVFN2_iLTHM5m2c.jpeg"
-              class="rounded-circle"
-              alt="Cinque Terre"
-              width="20px"
-              height="20px"
-            />
-            <div class="px-2">
-              <h4 class="author">Neque porro quisquam</h4>
-              <h6 class="content-ttl mb-2 mt-2">
-                Tyrion Lannister and The 7 Habits of Highly Effective People
-              </h6>
-              <p class="content mb-2">
-                A Game of Thrones-themed synopsis of The 7 Habits of Highly
-                Effective People
-              </p>
-              <span class="blog-date">Dec 2 · 14 min read · </span>
-              <span class="cat">Game Of Thrones</span>
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path
-                  d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z"
-                  fill="#FFC017"
-                ></path>
-              </svg>
-              <a
-                class="content-btn"
-                rel="noopener follow"
-                href="/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F22e3bd78b8c9&amp;operation=register&amp;redirect=https%3A%2F%2Fuxdesign.cc%2Fa-product-managers-64-insights-from-2022-22e3bd78b8c9&amp;source=---------0-----------------bookmark_preview-0----------"
-                ><svg
-                  width="25"
-                  height="25"
-                  viewBox="0 0 25 25"
-                  fill="none"
-                  class="mf"
-                >
-                  <path
-                    d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
-                    fill="#292929"
-                  ></path>
-                </svg>
-              </a>
+          <div class="row">
+            <div class="col-8 mt-3">
+              <div class="d-flex justify-content-start">
+                <img
+                  src="https://miro.medium.com/fit/c/25/25/1*oTq5RWcSwzoDiuAO_OBhaw.jpeg"
+                  class="rounded-circle"
+                  alt="Cinque Terre"
+                  width="20px"
+                  height="20px"
+                />
+                <div class="px-2">
+                  <h4 class="author">Dr. Tom Frieden</h4>
+                  <h6 class="content-ttl mb-2 mt-2">
+                    Understanding Long Covid
+                  </h6>
+                  <p class="content mb-2">Ukraine War, 19 December 2022</p>
+                  <span class="blog-date">Dec 20 · 9 min read ·</span>
+                  <span class="cat">Long Covid</span>
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z"
+                      fill="#FFC017"
+                    ></path>
+                  </svg>
+                  <a
+                    class="content-btn"
+                    rel="noopener follow"
+                    href="details.html"
+                    ><svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      class="mf"
+                    >
+                      <path
+                        d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
+                        fill="#292929"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mt-3">
+              <img
+                src="https://miro.medium.com/fit/c/250/168/0*Nz897vaKH2yJhSQJ"
+                class="img"
+              />
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <img
-            src="https://miro.medium.com/fit/c/250/168/1*uPt_ccZmvCMnQahIs43ahg.png"
-            class="img"
-          />
+          <div class="row">
+            <div class="col-8 mt-3">
+              <div class="d-flex justify-content-start">
+                <img
+                  src="https://miro.medium.com/fit/c/25/25/1*oTq5RWcSwzoDiuAO_OBhaw.jpeg"
+                  class="rounded-circle"
+                  alt="Cinque Terre"
+                  width="20px"
+                  height="20px"
+                />
+                <div class="px-2">
+                  <h4 class="author">Dr. Tom Frieden</h4>
+                  <h6 class="content-ttl mb-2 mt-2">
+                    Understanding Long Covid
+                  </h6>
+                  <p class="content mb-2">Ukraine War, 19 December 2022</p>
+                  <span class="blog-date">Dec 20 · 9 min read ·</span>
+                  <span class="cat">Long Covid</span>
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z"
+                      fill="#FFC017"
+                    ></path>
+                  </svg>
+                  <a
+                    class="content-btn"
+                    rel="noopener follow"
+                    href="details.html"
+                    ><svg
+                      width="25"
+                      height="25"
+                      viewBox="0 0 25 25"
+                      fill="none"
+                      class="mf"
+                    >
+                      <path
+                        d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z"
+                        fill="#292929"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mt-3">
+              <img
+                src="https://miro.medium.com/fit/c/250/168/0*Nz897vaKH2yJhSQJ"
+                class="img"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -433,15 +443,11 @@
       integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
       crossorigin="anonymous"
     ></script>
-    <script>
-      $(function () {
-        $(document).scroll(function () {
-          var $nav = $(".navbar");
-          var $btn = $(".get-btn");
-          $btn.toggleClass("scrolled", $(this).scrollTop() > $btn.height());
-          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-        });
-      });
-    </script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
