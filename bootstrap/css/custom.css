@@ -286,8 +286,11 @@ textarea:focus {
   padding: 7px 16px 9px 16px;
   color: #fff;
 }
-.hv {
+.horizontal {
   padding-bottom: 76px;
+}
+.label-txt {
+  font-size: 16px;
 }
 .top-banner {
   width: 550px;
@@ -330,7 +333,7 @@ textarea:focus {
 .forms {
   border-radius: 20px;
   padding: 3rem;
-  margin: 3rem auto;
+  margin: auto;
 }
 input:focus {
   outline: none;
@@ -368,6 +371,9 @@ input:focus {
 }
 .sp {
   display: block;
+}
+.dot {
+  display: none;
 }
 #comment {
   max-height: 100px;
@@ -443,6 +449,7 @@ input:focus {
 .pst-ttl2 {
   font-size: 16px;
 }
+
 @media screen and (max-width: 764px) {
   /* For mobile phones: */
   .menu,
@@ -536,13 +543,18 @@ input:focus {
   .mypst-txt,
   .sp-img,
   .content,
-  .list-txt {
+  .list-txt,
+  .modal-btn,
+  .search,
+  .list-asd,
+  .aside-ttl {
     display: none;
   }
   .name {
     font-size: 14px !important;
   }
-  .read-btn {
+  .read-btn,
+  .dot {
     display: block;
   }
   .pst-ttl2,
