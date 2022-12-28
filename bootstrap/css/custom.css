@@ -342,20 +342,23 @@ input:focus {
 .post-img {
   width: 70%;
 }
-.profile-img {
+.pf-img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   overflow: hidden;
 }
-.profile-img img {
+.pf-img img {
   height: 100%;
+}
+.horizontal {
+  padding-bottom: 100px;
 }
 .text-sm {
   font-size: 0.8em;
 }
 .w-80 {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 .w-90 {
@@ -562,5 +565,9 @@ input:focus {
   .list-txt,
   .aside-ttl {
     font-size: 12px !important;
+  }
+  .w-80 {
+    width: auto;
+    margin: auto;
   }
 }

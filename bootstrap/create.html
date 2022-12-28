@@ -28,7 +28,7 @@
   </head>
   <body>
     <header
-      class="fixed-top w-100 d-flex bg-light justify-content-center align-items-center border-bottom border-dark"
+      class="fixed-top w-100 d-flex justify-content-center align-items-center border-bottom border-secondary"
     >
       <div class="container-wrapper">
         <div class="w-100 d-flex align-items-center justify-content-between">
@@ -53,7 +53,7 @@
               ></i>
               <input
                 type="text"
-                class="w-100 border-0 py-2 px-3 bg-transparent"
+                class="w-100 border-0 py-2 px-3 bg-transparent search"
                 placeholder="Search Medium"
               />
             </div>
@@ -105,13 +105,15 @@
                   <li>
                     <a class="dropdown-item" href="profile.html">Profile</a>
                   </li>
-                  <li><a class="dropdown-item" href="#">Lists</a></li>
+                  <li><a class="dropdown-item" href="lists.html">Lists</a></li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#">Sign out</a>
+                    <a class="dropdown-item" href="index.html">Sign out</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">shwephue@gmail.com</a>
+                    <a class="dropdown-item" href="profile.html"
+                      >shwephue@gmail.com</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -120,7 +122,8 @@
         </div>
       </div>
     </header>
-    <div class="vh-100 w-100 d-flex justify-content-center align-items-center">
+    <div class="horizontal"></div>
+    <div class="w-100 d-flex justify-content-center align-items-center">
       <div class="container-wrapper">
         <div class="w-80 d-flex align-items-center justify-content-center py-4">
           <form
@@ -184,6 +187,13 @@
         $("#summerNote").summernote({
           placeholder: "Post Description",
           height: 100,
+          tabsize: 2,
+          toolbar: [
+            ["style", ["style"]],
+            ["font", ["bold", "underline", "clear"]],
+            ["color", ["color"]],
+            ["para", ["ul", "ol", "paragraph"]],
+          ],
         });
       });
     </script>
