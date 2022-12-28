@@ -22,7 +22,7 @@
   </head>
   <body>
     <header
-      class="sticky-top w-100 d-flex bg-light justify-content-center align-items-center border-bottom"
+      class="w-100 d-flex bg-light justify-content-center align-items-center border-bottom border-dark"
     >
       <div class="container-wrapper">
         <div class="w-100 d-flex align-items-center justify-content-between">
@@ -41,10 +41,14 @@
             <div
               class="mx-4 bg-slate-opt rounded-pill overflow-hidden d-flex align-items-center pr-3"
             >
-              <i
-                class="fa-solid fa-magnifying-glass"
-                style="padding-left: 0.8rem"
-              ></i>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M4.1 11.06a6.95 6.95 0 1 1 13.9 0 6.95 6.95 0 0 1-13.9 0zm6.94-8.05a8.05 8.05 0 1 0 5.13 14.26l3.75 3.75a.56.56 0 1 0 .8-.79l-3.74-3.73A8.05 8.05 0 0 0 11.04 3v.01z"
+                  fill="currentColor"
+                ></path>
+              </svg>
               <input
                 type="text"
                 class="w-100 border-0 py-2 px-3 bg-transparent"
@@ -56,7 +60,22 @@
             <button
               class="d-flex mx-2 align-items-center justify-content-center border-0 bg-transparent"
             >
-              <i class="fa-regular fa-pen-to-square"></i>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-label="Write"
+              >
+                <path
+                  d="M14 4a.5.5 0 0 0 0-1v1zm7 6a.5.5 0 0 0-1 0h1zm-7-7H4v1h10V3zM3 4v16h1V4H3zm1 17h16v-1H4v1zm17-1V10h-1v10h1zm-1 1a1 1 0 0 0 1-1h-1v1zM3 20a1 1 0 0 0 1 1v-1H3zM4 3a1 1 0 0 0-1 1h1V3z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  d="M17.5 4.5l-8.46 8.46a.25.25 0 0 0-.06.1l-.82 2.47c-.07.2.12.38.31.31l2.47-.82a.25.25 0 0 0 .1-.06L19.5 6.5m-2-2l2.32-2.32c.1-.1.26-.1.36 0l1.64 1.64c.1.1.1.26 0 .36L19.5 6.5m-2-2l2 2"
+                  stroke="currentColor"
+                ></path>
+              </svg>
               <span class="px-1"> <a href="create.html"> Write</a></span>
             </button>
             <div class="d-flex align-items-center justify-content-between">
@@ -71,7 +90,29 @@
                   width="32px"
                 />
               </div>
-              <i class="fa-solid fa-caret-down"></i>
+              <div class="dropdown">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="profile.html">Profile</a>
+                  </li>
+                  <li><a class="dropdown-item" href="lists.html">Lists</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="index.html">Sign out</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">shwephue@gmail.com</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -153,7 +194,7 @@
                     </h6>
                   </div>
                   <div class="col-md-12">
-                    <span class=""
+                    <span class="txt"
                       >Advocate/poet. Over 30 yrs. of leadership of multiple DEI
                       causes. Sparking insights of the race & gender nexus with
                       history, philosophy, advancing human life.</span
@@ -161,7 +202,7 @@
                   </div>
                 </div>
                 <div class="row my-3">
-                  <h3>More For Medium</h3>
+                  <h5>More from Medium</h5>
                   <div class="col-md-12 d-flex">
                     <div
                       class="overflow-hidden rounded-circle d-flex align-items-center justify-content-center"
@@ -284,5 +325,16 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -413,7 +413,10 @@ input:focus {
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
-
+.fw-semibold,
+.txt {
+  font-size: 14px;
+}
 .pst-date {
   font-size: 12px;
 }
@@ -508,7 +511,7 @@ input:focus {
   .sp {
     display: none;
   }
-  .aside-txt {
+  .aside-text {
     display: none !important;
   }
   .post-img {
